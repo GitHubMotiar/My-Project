@@ -1,0 +1,45 @@
+site_name: Tech-Docs
+copyright: Copyright &copy; 2024 Tech Docs
+theme:
+  logo : /images/ibase-t small logo.png
+  language: en
+  favicon: /images/book.svg
+  plugins:
+    - typeset
+    - search
+  palette:
+    # Pallet toggle for dark mode
+    scheme: default
+    primary: black
+    accent: deep orange
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mod
+
+  name: material
+  repo_url: https://github.com/GitHubMotiar/My-Project_II.git
+  repo_name: GitHubMotiar/My-Project_II.git
+
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - header.autohide
+    - announce.dismiss
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+extra:
+  social:
+    # - icon: /images/giticons/mark-github.svg
+    #   link: https://github.com/GitHubMotiar
+  generator: false
+nav:
+  - 'Home.md'
+  - 'About.md'
+  - 'G-Series.md'
+  - 'iSeries.md'
