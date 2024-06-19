@@ -1,11 +1,13 @@
 site_name: Tech-Docs
 copyright: Copyright &copy; 2024 Tech Docs
-# repo_name: GitHubMotiar/My-Project_II
-# repo_url: https://github.com/GitHubMotiar/My-Project_II
+repo_name: GitHubMotiar/My-Project_II
+repo_url: https://github.com/GitHubMotiar/My-Project_II
 theme:
   logo : /images/ibase-t small logo.png
+  # custom_dir: material/overrides
   icon:
-    repo: /images/gitcons/git-pull-request.svg
+    annotation: material/arrow-right-circle
+    # repo: /images/gitcons/git-pull-request.svg
   language: en
   favicon: /images/book.svg
   plugins:
@@ -32,6 +34,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.path
+    - navigation.indexes
     - header.autohide
     - announce.dismiss
     - navigation.instant
@@ -39,6 +42,7 @@ theme:
     - navigation.instant.progress
     - navigation.indexes
     - content.code.copy
+    - content.tooltips
     # - toc.follow
     # - toc.integrate
 extra:
@@ -48,11 +52,12 @@ extra:
   generator: false
 nav:
   - Knowledge Base:
-      - 'start here': knowledge_base/start.md
+      - 'Admonitions': knowledge_base/admonitions.md
+      - 'Annotations': knowledge_base/annotation.md
       - 'Code Block': knowledge_base/code_block.md
-  - 'Start here'
   - 'Home.md'
   - 'About.md'
+  - 'Setup.md'
   - 'G-Series.md'
   - 'iSeries.md'
 markdown_extensions:
@@ -64,3 +69,4 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - md_in_html
