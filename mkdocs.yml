@@ -43,6 +43,7 @@ theme:
     - navigation.indexes
     - content.code.copy
     - content.tooltips
+    - content.tabs.link
     # - toc.follow
     # - toc.integrate
 extra:
@@ -55,9 +56,11 @@ nav:
       - 'Admonitions': knowledge_base/admonitions.md
       - 'Annotations': knowledge_base/annotation.md
       - 'Code Block': knowledge_base/code_block.md
+      - 'Tooltips': knowledge_base/Tooltips.md
   - 'Home.md'
   - 'About.md'
   - 'Setup.md'
+  - 'Content Tab.md'
   - 'G-Series.md'
   - 'iSeries.md'
 markdown_extensions:
@@ -65,8 +68,13 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+      alternate_style: true
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
   - md_in_html
+  - abbr
+  - pymdownx.snippets
