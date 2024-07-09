@@ -4,7 +4,7 @@
 * Product Design 
 * Backend codes
 * QA Testing path 
-??? info
+??? Info
         markdown_extensions:
           - pymdownx.highlight:
                 anchor_linenums: true

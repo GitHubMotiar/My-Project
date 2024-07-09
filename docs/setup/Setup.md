@@ -9,3 +9,4 @@ In order to display a link to the repository of your project as part of your doc
 ### Adding icon buttons
 Of course, icons can be added to all types of buttons by using the icon syntax together with any valid icon shortcode, which can be easily found with a few keystrokes through our icon search.
 <!-- [Send :fontawesome-solid-paper-plane:](#){ .md-button } -->
+[Click here to see versionning](/Desktop/Mkdocs/My-Project/docs/setup/setting_up_version.md)
