@@ -1,0 +1,1462 @@
+/*<meta />*/
+
+p.Autonumber
+{
+	mc-auto-number-format: '{n+}. ';
+	font-family: Calibri;
+}
+
+/*<meta sourceDocument="C:\Users\jsmith\OneDrive - iBASEt\Desktop\iSeries Web UI Section.docx" />*/
+/*ImageStyles*/
+
+img
+{
+	font-size: 12pt;
+	margin: 0 0 0 0;
+	page-break-before: avoid;
+	max-width: 85%;
+}
+
+p.Image
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	margin: 6px 0 12px 0;
+	mc-hyphenate: never;
+	max-width: 85%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.ImageIndent
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	margin: 6px 0 12px 29px;
+	mc-hyphenate: never;
+	max-width: 85%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+p.tooltip
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #0202FF
+}
+p.ImageIndent2
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	margin: 6px 0 12px 59px;
+	mc-hyphenate: never;
+	max-width: 85%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+img.Thumbnail
+{
+	mc-thumbnail: popup;
+	mc-thumbnail-max-width: auto;
+	max-width: 400px;
+	mc-popup-width: 400px;
+}
+
+img.ImageBorder
+{
+	border: solid 1px #717073;
+	padding-bottom: 2px;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	max-width: 85%;
+	min-width: 2in;
+	height: auto;
+	font: Calibri;
+}
+
+img.Icon
+{
+	max-height: 0.2 in;
+}
+
+/*VideoStyles*/
+
+object
+{
+	width: 450px;
+	height: auto;
+}
+
+/*CoverStyles*/
+
+p.Copyright
+{
+	margin-bottom: 8pt;
+	margin-top: 8pt;
+	font-family: Calibri, sans-serif;
+	font-size: 10pt;
+}
+
+p.CopyrightFirst
+{
+	margin-bottom: 8pt;
+	font-size: 10pt;
+	margin-top: 186pt;
+	font-family: Calibri, sans-serif;
+}
+
+p.CoverDateTime
+{
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 16pt;
+}
+
+p.CoverDivision
+{
+	margin-right: 0pt;
+	text-align: right;
+	font-weight: bold;
+	margin-top: 60pt;
+	margin-bottom: 18pt;
+	font-family: Calibri, sans-serif;
+	color: #FF6F00;
+	font-size: 18pt;
+}
+
+p.CoverSubTitle
+{
+	margin-bottom: 0pt;
+	margin-right: 0pt;
+	text-align: right;
+	font-weight: bold;
+	color: #23313D;
+	font-size: 28pt;
+	font-family: Calibri, sans-serif;
+}
+
+p.CoverTitle
+{
+	margin-bottom: 0pt;
+	margin-right: 0pt;
+	text-align: right;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	color: #23313D;
+	font-size: 28pt;
+}
+
+/*CodeSnippetStyles*/
+
+MadCap|codeSnippet
+{
+	font-size: 12pt;
+	margin: 11px 0 11px 0;
+}
+
+MadCap|codeSnippetBody
+{
+	font-size: 12pt;
+}
+
+MadCap|codeSnippetCopyButton
+{
+	font-family: Calibri, sans-serif;
+	font-size: 13px;
+}
+
+MadCap|codeSnippetCaption
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+}
+
+/*BodyStylesHTML5*/
+
+p.Body
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-hyphenate: never;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.body
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-hyphenate: never;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	/*In this stylesheet so that misstyled p.Body text isn't styled as Times New Roman*/
+}
+
+p.BodyIntro
+{
+	page-break-after: avoid;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-hyphenate: never;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.BodyBold
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 0px;
+	mc-hyphenate: never;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.BodyBoldItalic
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 0px;
+	mc-hyphenate: never;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.BodyItalic
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 0px;
+	mc-hyphenate: never;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.Bullet1
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	page-break-inside: avoid;
+	mc-auto-number-format: '\25CF';
+	mc-auto-number-offset: 40px;
+	mc-auto-number-class: zformatBodyBulletHTML5;
+	mc-auto-number-position: outside-head;
+	text-indent: 0px;
+	margin-left: 57px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	widows: 3;
+	orphans: 3;
+}
+
+span.zformatBodyBulletHTML5
+{
+	font-family: Unicode;
+	font-size: 9pt;
+	display: inline-block;
+	margin-right: 18px;
+	text-align: right;
+	width: 20px;
+}
+
+p.Bullet2
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: '\25CB ';
+	mc-auto-number-offset: 37px;
+	mc-auto-number-position: outside-head;
+	mc-auto-number-class: zformatBodyBullet2HTML5;
+	text-indent: 0px;
+	margin-left: 72px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+span.zformatBodyBullet2HTML5
+{
+	font-family: Unicode;
+	font-size: 10pt;
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 18px;
+	text-align: right;
+	width: 31px;
+}
+
+p.Bullet3
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: '\25A0 ';
+	mc-auto-number-class: zformatBodyBullet3HTML5;
+	mc-auto-number-offset: 53px;
+	mc-auto-number-position: outside-head;
+	text-indent: 0px;
+	margin-left: 117px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+span.zformatBodyBullet3HTML5
+{
+	font-family: Unicode;
+	font-size: 8pt;
+	display: inline-block;
+	margin-right: 18px;
+	text-align: right;
+	width: 31px;
+}
+
+p.Code
+{
+	font-family: GT America Mono Regular, monospace;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 0px;
+	border: solid 0px #000000;
+	mc-hyphenate: never;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.CodeNum
+{
+	font-family: GT America Mono Regular, monospace;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-indent: 0px;
+	border: solid 0px #000000;
+	mc-hyphenate: never;
+	mc-auto-number-format: '{n+}: ';
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.CodeNumFirst
+{
+	font-family: GT America Mono Regular, monospace;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-indent: 0px;
+	border: solid 0px #000000;
+	mc-hyphenate: never;
+	mc-auto-number-format: '{n=1}: ';
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.GenericCaption
+{
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	color: #23313D;
+	font-size: 12pt;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.MenuPath
+{
+	font-family: Calibri, sans-serif;
+	color: #555456;
+	font-size: 14pt;
+	font-weight: bold;
+	mc-next-tag: p;
+	mc-next-class: body;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.PageNumber
+{
+	font-family: Calibri, sans-serif;
+	font-size: 14pt;
+	color: #FF6F00;
+	font-weight: bold;
+}
+
+span.PageNumber
+{
+	font-size: 14pt;
+}
+
+p.Step
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: 'e:{n+1}';
+	mc-auto-number-class: zformatStepHTML5;
+	mc-auto-number-offset: 28px;
+	mc-auto-number-position: outside-head;
+	text-indent: 0px;
+	margin-left: 0px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	mc-next-class: Step;
+	vertical-align: baseline;
+}
+
+span.zformatStepHTML5
+{
+	font-weight: bold;
+	color: #000000;
+	display: inline-block;
+	margin-right: 18px;
+	text-align: right;
+	width: 0px;
+}
+
+p.StepBullet1
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	page-break-inside: avoid;
+	mc-auto-number-format: '\25CF';
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: zformatStepBulletHTML5;
+	text-indent: -38px;
+	margin-left: 55px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	widows: 3;
+	orphans: 3;
+}
+
+span.zformatStepBulletHTML5
+{
+	font-family: Unicode;
+	font-size: 9pt;
+	display: inline-block;
+	margin-right: 21px;
+	text-align: right;
+	width: 20px;
+	color: #000000;
+}
+
+p.StepBullet2
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: '\25CB ';
+	mc-auto-number-offset: 52px;
+	mc-auto-number-class: zformatStepBullet2HTML5;
+	mc-auto-number-position: outside-head;
+	text-indent: 0px;
+	margin-left: 87px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+span.zformatStepBullet2HTML5
+{
+	font-family: Unicode;
+	font-size: 10pt;
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 18px;
+	text-align: right;
+	width: 31px;
+	color: #000000;
+}
+
+p.StepBullet3
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: '\25A0 ';
+	mc-auto-number-offset: 50px;
+	mc-auto-number-position: outside-head;
+	mc-auto-number-class: zformatStepBullet3HTML5;
+	text-indent: 0px;
+	margin-left: 114px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+span.zformatStepBullet3HTML5
+{
+	font-family: Unicode;
+	font-size: 8pt;
+	display: inline-block;
+	margin-right: 18px;
+	text-align: right;
+	width: 31px;
+	color: #000000;
+}
+
+p.StepFirst
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	page-break-inside: avoid;
+	mc-auto-number-format: 'e:{n=1}';
+	mc-auto-number-offset: 28px;
+	mc-auto-number-class: zformatStepHTML5;
+	mc-auto-number-position: outside-head;
+	text-indent: 0px;
+	margin-left: 0px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	mc-next-class: Step;
+}
+
+p.Subheading
+{
+	margin-bottom: 8pt;
+	margin-top: 8pt;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	color: #23313D;
+	font-size: 14pt;
+	page-break-after: avoid;
+	mc-heading-level: 3;
+}
+
+p.SubStep
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: 'd:{a+}';
+	mc-auto-number-offset: 50px;
+	mc-auto-number-class: zformatSubStepFirstHTML5;
+	mc-auto-number-position: outside-head;
+	text-indent: 0px;
+	margin-left: 22px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	mc-next-class: SubStep;
+}
+
+p.SubStepFirst
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: 'd:{a=1}';
+	mc-auto-number-offset: 50px;
+	mc-auto-number-class: zformatSubStepFirstHTML5;
+	mc-auto-number-position: outside-head;
+	text-indent: 0px;
+	margin-left: 22px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	mc-next-class: SubStep;
+}
+
+span.zformatSubStepFirstHTML5
+{
+	font-weight: bold;
+	color: #000000;
+	display: inline-block;
+	margin-right: 20px;
+	text-align: right;
+	width: 38px;
+}
+
+p.SubStepBullet1
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	page-break-inside: avoid;
+	mc-auto-number-format: '\25CF';
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: zformatStepBulletHTML5;
+	text-indent: -38px;
+	margin-left: 84px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	widows: 3;
+	orphans: 3;
+}
+
+p.SubStepBullet2
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: '\25CB ';
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: zformatStepBullet2HTML5;
+	text-indent: -48px;
+	margin-left: 113px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.SubStepBullet3
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	mc-hyphenate: never;
+	mc-auto-number-format: '\25A0 ';
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: zformatStepBullet3HTML5;
+	text-indent: -48px;
+	margin-left: 139px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/*Callout Styles*/
+
+div.indent25
+{
+	margin-left: 0.3in;
+	page-break-inside: avoid;
+}
+
+p.Announcement
+{
+	background-image: url("../../Resources/Images/CalloutImages/Announcement.png");
+	background-position-y: 5px;
+	background-position-x: 5px;
+	border: 1px solid #707073;
+	background-repeat: no-repeat;
+	mc-hyphenate: never;
+	padding-left: 52px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	min-height: 44px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.example
+{
+	background-image: url("../../Resources/Images/CalloutImages/Example.png");
+	background-position-y: 5px;
+	background-position-x: 5px;
+	border: 1px solid #707073;
+	background-repeat: no-repeat;
+	mc-hyphenate: never;
+	padding-left: 52px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	min-height: 36px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.Important
+{
+	background-image: url("../../Resources/Images/CalloutImages/Important.png");
+	background-position-y: 5px;
+	background-position-x: 5px;
+	border: 1px solid #707073;
+	background-repeat: no-repeat;
+	mc-hyphenate: never;
+	padding-left: 52px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	min-height: 42px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.Note
+{
+	background-image: url("../../Resources/Images/CalloutImages/Note.png");
+	background-position-y: 5px;
+	background-position-x: 5px;
+	border: 1px solid #707073;
+	background-repeat: no-repeat;
+	mc-hyphenate: never;
+	padding-left: 52px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	min-height: 45px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.Reference
+{
+	background-image: url("../../Resources/Images/CalloutImages/Reference.png");
+	background-position-y: 5px;
+	background-position-x: 5px;
+	border: 1px solid #707073;
+	background-repeat: no-repeat;
+	mc-hyphenate: never;
+	padding-left: 52px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	min-height: 36px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.TipBestPractice
+{
+	background-image: url("../../Resources/Images/CalloutImages/Tip.png");
+	background-position-y: 5px;
+	background-position-x: 5px;
+	border: 1px solid #707073;
+	background-repeat: no-repeat;
+	mc-hyphenate: never;
+	padding-left: 52px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	min-height: 43px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p.Warning
+{
+	background-image: url("../../Resources/Images/CalloutImages/Warning.png");
+	background-position-y: 5px;
+	background-position-x: 5px;
+	border: 1px solid #707073;
+	background-repeat: no-repeat;
+	mc-hyphenate: never;
+	padding-left: 52px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	page-break-inside: avoid;
+	page-break-before: avoid;
+	min-height: 38px;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/* Heading Styles */
+
+h1
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	/*	page-break-before: always; */
+	border-bottom-style: solid;
+	border-bottom-width: 2pt;
+	border-bottom-color: #FF6F00;
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+	mc-heading-level: 1;
+	font-family: 'Segoe UI Semibold';
+	font-weight: bold;
+	color: #23313D;
+	font-size: 32pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	mc-hyphenate: never;
+}
+
+h1.NotInTOC
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	page-break-before: always;
+	border-bottom-style: solid;
+	border-bottom-width: 2pt;
+	border-bottom-color: #FF6F00;
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+	mc-heading-level: 0;
+	font-family: 'Segoe UI Semibold';
+	font-weight: bold;
+	color: #23313D;
+	font-size: 32pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	mc-hyphenate: never;
+}
+
+h2
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	mc-heading-level: 2;
+	font-family: 'Segoe UI Semibold';
+	color: #7CACBF;
+	font-size: 25pt;
+	font-weight: normal;
+	mc-next-tag: p;
+	mc-next-class: body;
+	mc-hyphenate: never;
+}
+
+h2.FileTag
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	mc-heading-level: 2;
+	font-family: 'Segoe UI Semibold';
+	color: #FFFFFF;
+	font-size: 25pt;
+	font-weight: normal;
+	mc-next-tag: p;
+	mc-next-class: body;
+	mc-hyphenate: never;
+	mc-conditions: 'iBASEtConditions.ScreenOnly';
+	text-indent: -9999px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+h3
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	color: #4C687E;
+	mc-heading-level: 3;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 21pt;
+	mc-next-tag: p;
+	mc-next-class: body;
+	mc-hyphenate: never;
+}
+
+h4
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	mc-heading-level: 0;
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+	color: #7CACBF;
+	font-size: 17pt;
+	font-weight: normal;
+	mc-next-tag: p;
+	mc-next-class: body;
+	mc-hyphenate: never;
+}
+
+h5
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	mc-heading-level: 0;
+	font-family: Calibri, sans-serif;
+	color: #FF6F00;
+	font-size: 14pt;
+	font-weight: bold;
+	mc-next-tag: p;
+	mc-next-class: body;
+	mc-hyphenate: never;
+}
+
+h6
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	mc-heading-level: 0;
+	font-family: Calibri, sans-serif;
+	color: #555456;
+	font-size: 13pt;
+	font-weight: bold;
+	mc-next-tag: p;
+	mc-next-class: body;
+	mc-hyphenate: never;
+}
+
+p.Footer
+{
+	font-family: Calibri, sans-serif;
+	font-size: 9pt;
+}
+
+/*Cross Reference Styles*/
+
+MadCap|xref
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	text-decoration: none;
+	mc-format: '{color #000000;}See {/color}{color #0202FF;}{paratext}{/color}.';
+}
+
+MadCap|xref.TopicNameOnly
+{
+	color: #0202FF;
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	text-decoration: none;
+	mc-format: '{paratext}';
+}
+
+MadCap|xref.TopicandPageNumber
+{
+	mc-format: '{color #0202FF;}{paratext}{/color}.';
+}
+
+a.XRefStyle
+{
+	text-decoration: none;
+	color: 0202FF;
+}
+
+a.XRefStyle:link
+{
+	color: #0202FF;
+}
+
+a.XRefStyle:hover
+{
+	color: #0202FF;
+}
+
+/* Hyperlink Styles */
+
+a
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	text-decoration: none;
+	color: #0202FF;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: #0202FF;
+}
+
+a:visited
+{
+	color: #0202FF;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #0202FF;
+	cursor: hand;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #0202FF;
+	cursor: hand;
+	text-decoration: none;
+}
+
+a.Hyperlink
+{
+	text-decoration: underline;
+	color: #0202FF;
+}
+
+/*Index Styles*/
+
+p.IndexHeading
+{
+	font-family: "Franklin Gothic Demi";
+	font-size: 14pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #2F5496;
+	text-align: left;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}
+
+MadCap|xref.IndexPageNumber
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+MadCap|indexProxy
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+	mc-column-count: 1;
+	border: none;
+}
+
+/* Glossary Styles*/
+
+div.GlossaryPageHeading
+{
+	font-family: Calibri, sans-serif;
+	font-size: 14pt;
+	font-style: normal;
+	font-weight: bold;
+	color: #2F5496;
+	text-align: left;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}
+
+MadCap|glossaryProxy
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	border: none;
+}
+
+/* TOC Styles */
+
+MadCap|tocProxy
+{
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	border: none;
+}
+
+MadCap|glossaryTerm
+{
+	color: #FF6F00;
+}
+
+p.TOC1
+{
+	font-size: 12pt;
+	font-family: Calibri, sans-serif;
+	color: #2F5496;
+	line-height: 11pt;
+	margin-top: 4pt;
+	margin-bottom: 4pt;
+	width: 100%;
+	vertical-align: top;
+	mc-hyphenate: never;
+}
+
+p.TOC2
+{
+	font-size: 12pt;
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+	color: #2F5496;
+	line-height: 11pt;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	width: 100%;
+	vertical-align: top;
+	mc-hyphenate: never;
+}
+
+p.TOC3
+{
+	font-size: 12pt;
+	font-family: Calibri, sans-serif;
+	color: #2F5496;
+	line-height: 11pt;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	width: 100%;
+	vertical-align: top;
+	mc-hyphenate: never;
+}
+
+/*Span Styles */
+
+span.BodyBold
+{
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+span.BodyBoldItalic
+{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12pt;
+}
+
+span.BodyItalic
+{
+	font-style: italic;
+	font-size: 12pt;
+}
+
+/* Variable Styles*/
+
+MadCap|variable
+{
+	hyphenate: never;
+	font-family: Calibri, sans-serif;
+}
+
+/* Breadcrumbs Styles*/
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: var(--Dark);
+	font-family: Calibri, sans-serif;
+	font-size: 12pt;
+	mc-breadcrumbs-count: 8;
+}
+
+/* Style pane visibility - true = disabled, false = visible*/
+
+h6
+{
+	mc-disabled: true;
+	mc-heading-level: 0;
+}
+
+h7
+{
+	mc-disabled: true;
+	mc-heading-level: 0;
+}
+
+h8
+{
+	mc-disabled: true;
+	mc-heading-level: 0;
+}
+
+h9
+{
+	mc-disabled: true;
+	mc-heading-level: 0;
+}
+
+b
+{
+	mc-disabled: true;
+}
+
+big
+{
+	mc-disabled: true;
+}
+
+del
+{
+	mc-disabled: true;
+}
+
+kbd
+{
+	mc-disabled: true;
+}
+
+label
+{
+	mc-disabled: true;
+}
+
+q
+{
+	mc-disabled: true;
+}
+
+i
+{
+	mc-disabled: true;
+}
+
+samp
+{
+	mc-disabled: true;
+}
+
+small
+{
+	mc-disabled: true;
+}
+
+strong
+{
+	mc-disabled: true;
+}
+
+tt
+{
+	mc-disabled: true;
+}
+
+abbr
+{
+	mc-disabled: true;
+}
+
+acronym
+{
+	mc-disabled: true;
+}
+
+cite
+{
+	mc-disabled: true;
+}
+
+em
+{
+	mc-disabled: true;
+}
+
+ins
+{
+	mc-disabled: true;
+}
+
+MadCap|helpControlMenuItem.Highlighted
+{
+	mc-disabled: true;
+}
+
+span.boolean
+{
+	mc-disabled: true;
+}
+
+MadCap|slideThumbnail.active
+{
+	mc-disabled: true;
+}
+
+sub
+{
+	mc-disabled: true;
+}
+
+sup
+{
+	mc-disabled: true;
+}
+
+span.state
+{
+	mc-disabled: true;
+}
+
+span.PageNumber
+{
+	mc-disabled: true;
+}
+
+span.zformatBodyBullet
+{
+	mc-disabled: true;
+}
+
+span.zformatBodyBullet2
+{
+	mc-disabled: true;
+}
+
+span.zformatBodyBullet3
+{
+	mc-disabled: true;
+}
+
+span.zformatStep
+{
+	mc-disabled: true;
+}
+
+span.zformatStepBullet
+{
+	mc-disabled: true;
+}
+
+span.zformatStepBullet2
+{
+	mc-disabled: true;
+}
+
+span.zformatStepBullet3
+{
+	mc-disabled: true;
+}
+
+span.zformatSubStepFirst
+{
+	mc-disabled: true;
+}
+
+/*END OF ORIGINAL FILE - DELETE ANY CODE ADDED AFTER THS AFTER AN IMPORT*/
+
+p
+{
+	
+}
+
+colgroup
+{
+	
+}
+
+td
+{
+	
+}
+
+table
+{
+	
+}
+
+th
+{
+	
+}
+
+thead
+{
+	
+}
