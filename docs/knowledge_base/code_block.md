@@ -36,3 +36,4 @@ site_name: Tech-Docs
             icon: material/weather-night
             name: Switch to light mod
 ```
+[You can click here to see full image](www.google.com)

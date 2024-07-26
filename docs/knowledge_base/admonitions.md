@@ -4,7 +4,7 @@
 * Product Design 
 * Backend codes
 * QA Testing path 
-??? Info
+??? Warning
         markdown_extensions:
           - pymdownx.highlight:
                 anchor_linenums: true
@@ -13,9 +13,11 @@
           - pymdownx.inlinehilite
           - pymdownx.snippets
           - pymdownx.superfences
+          - 
 
 #### Inline Blocks
 Admonitions can also be rendered as inline blocks (e.g., for sidebars), placing them to the right using the ```inline``` + ```end``` modifiers, or to the left using only the ```inline``` modifier:
+## Alteration Propagation
 
 !!! warning inline end "warning"
 
